@@ -52,7 +52,7 @@ export async function authorize(request: Request) {
   const { data } = await client.auth.getSession();
 
   if (!data.session) {
-    throw redirect("password", {
+    throw redirect("/password", {
       headers: response.headers,
     });
   }
