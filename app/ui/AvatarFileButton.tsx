@@ -1,4 +1,4 @@
-import { ActionIcon, Box, FileButton, Avatar, createStyles, useMantineTheme } from "@mantine/core";
+import { ActionIcon, Box, FileButton, Avatar, useMantineTheme } from "@mantine/core";
 
 import { IconPencil, IconUsers } from "@tabler/icons";
 import { useState } from "react";
