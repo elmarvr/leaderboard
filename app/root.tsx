@@ -5,7 +5,7 @@ import { createEmotionCache, MantineProvider } from "@mantine/core";
 
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
-  title: "New Remix App",
+  title: "Baldr Beerpong",
   viewport: "width=device-width,initial-scale=1",
 });
 
